@@ -42,7 +42,7 @@ ITEM_PIPELINES = {
     '{}.pipelines.MongoPipeline'.format(BOT_NAME): 100,
 }
 
-PROXIES = "http://proxy.dianhua.cn:8080"
+PROXIES = ""
 
 # MongoDB数据库的配置信息
 # MONGODB_HOST = os.getenv("SPIDER_MONGO_URL","localhost")
